@@ -1,0 +1,67 @@
+html, body{
+    background-color: mintcream;
+    height: 100%;
+}
+
+.mainbox{
+    width: 800px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.main{
+    background-color: lightcoral;
+    width: 570px;
+    padding: 15px;
+    float: left;
+    height: 100%;
+}
+
+.left{
+    background-color: lightblue;
+    width: 100px;
+    float: left;
+    height: 100%;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.right{
+    background-color: lightgreen;
+    width: 100px;
+    float: left;
+    height: 100%;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.footer{
+    background-color: lightgoldenrodyellow;
+    clear: both;
+}
+
+.menu {
+    background-color: dodgerblue;
+    font-family: Arial;
+    width: 800px;
+}
+
+.menu li {
+    display:inline-block;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: darkblue;
+}
